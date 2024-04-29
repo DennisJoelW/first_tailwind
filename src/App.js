@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Wallet from './components/Wallet';
+import Trade from './components/Trade';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <Navbar/>
         <Hero />
         <Wallet />
+        <Trade />
     </div>
   );
 }

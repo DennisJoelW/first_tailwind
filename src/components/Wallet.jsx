@@ -5,13 +5,13 @@ import render from '../assets/render.webp'
 
 const Wallet = () => {
 
-  const CryptoCard = ({ bgGradient, image, title, description, imgSize }) => {
+  const CryptoCard = ({ bgGradient, image, title, description, imgSize, marginTop }) => {
     return (
-      <div className={`lg:w-1/3 ${bgGradient} w-full flex justify-center items-center text-center rounded-3xl transition-transform duration-300 hover:translate-y-3`}>
-        <div className='flex items-center flex-col cursor-pointer'>
-          <img src={image} alt="" className={` w-[${imgSize}] h-auto mt-4 `}/>
+      <div className={`lg:w-1/3 md:w-full ${bgGradient} w-full flex justify-center items-center text-center rounded-3xl transition-transform duration-300 hover:translate-y-3`}>
+        <div className='flex items-center flex-col cursor-pointer h-full'>
+          <img src={image} alt="" className=' lg:w-[230px] md:w-[140px] w-[130px] mt-4 '/>
           <h3 className='font-poppins font-semibold text-4xl text-white mt-[15px]'>{title}</h3>
-          <p className='text-center mx-10 text-white md:mt-4 md:mb-10 mt-2 mb-5 font-poppins font-medium'>{description}</p>
+          <p className='text-center mx-7 text-white md:mt-4 md:mb-10 mt-2 mb-8 font-poppins font-medium'>{description}</p>
         </div>
       </div>
     );
