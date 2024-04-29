@@ -37,21 +37,21 @@ const Trade = () => {
     };
 
   return (
-    <div className=' w-full py-16 md:px-6 px-12 md:h-[100vh] font-poppins mt-8'>
+    <div className=' w-full py-16 md:px-6 px-12 md:h-[100vh] font-poppins mt-8 mb-8'>
         <div className=' max-w-[1080px] mx-auto flex md:flex-row flex-col text-white gap-20'>
             
-        <div className=' md:w-1/2  bg-[#191919] flex flex-col justify-center items-center rounded-2xl px-16'>
+        <div className=' md:w-1/2 bg-[#191919] flex flex-col justify-center items-center rounded-2xl md:px-16 px-4'>
             <div className='flex flex-col py-8 w-full'>
 
                 <div className='flex flex-row bg-[#000300] px-3 py-3 rounded-xl justify-between'>
-                    <button className={`${buy ? 'bg-[#03C988]':'bg-[#000300]'} px-6 py-3 rounded-md font-medium`} onClick={buyClicked}>Buy</button>
-                    <button className={`${sell ? 'bg-[#03C988]':'bg-[#000300]'} px-6 py-3 rounded-md font-medium`} onClick={sellClicked}>Sell</button>
-                    <button className={`${trade ? 'bg-[#03C988]':'bg-[#000300]'} px-6 py-3 rounded-md font-medium`} onClick={tradeClicked}>Trade</button>
+                    <button className={`${buy ? 'bg-[#03C988]':'bg-[#000300]'} md:px-6 md:py-3 px-3 py-2 rounded-md font-medium`} onClick={buyClicked}>Buy</button>
+                    <button className={`${sell ? 'bg-[#03C988]':'bg-[#000300]'} md:px-6 md:py-3 px-3 py-2 rounded-md font-medium`} onClick={sellClicked}>Sell</button>
+                    <button className={`${trade ? 'bg-[#03C988]':'bg-[#000300]'} md:px-6 md:py-3 px-3 py-2 rounded-md font-medium`} onClick={tradeClicked}>Trade</button>
                 </div>
 
                     <p className=' ml-1 mt-6 mb-2'>Coin</p>
                     <div class="relative text-left ">
-                            <button type="button" class="flex flex-row w-full gap-x-1.5 rounded-md  pl-16 py-[1.4rem] text-sm font-semibold bg-[#000300] text-white " id="menu-button" aria-expanded="true" aria-haspopup="true">
+                            <button type="button" class="flex w-full flex-row gap-x-1.5 rounded-md  pl-16 py-[1.4rem] text-sm font-semibold bg-[#000300] text-white " id="menu-button" aria-expanded="true" aria-haspopup="true">
                             Bitcoin     
                                 <svg className="h-5 w-5 mr-6 text-gray-400 absolute right-0 " viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                     <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
