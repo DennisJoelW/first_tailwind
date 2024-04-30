@@ -5,6 +5,7 @@ import shiba_icon from "../assets/shiba.png"
 import sol_icon from "../assets/sol.png"
 import eth_icon from "../assets/eth.png"
 import doge_icon from "../assets/doge.png"
+import arrow from "../assets/right-arrow.png"
 
 const CryptoTop = () => {
 
@@ -51,7 +52,7 @@ const CryptoTop = () => {
             id : 2,
             coinImage : sol_icon,
             coinName : "Solana",
-            coinPump : "9%"
+            coinPump : "9.4%"
         },
         {
             id : 3,
@@ -65,7 +66,17 @@ const CryptoTop = () => {
     function TopCategories(props){
         return(
         <div className=' m-1 p-4 bg-[#000300] rounded-xl'>
-            <h4>{props.categories}</h4>
+
+            <div className=' flex flex-row justify-between'>
+                <h4 className=' text-xl'>{props.categories}</h4>
+
+                <div className=' flex flex-row items-center cursor-pointer'>
+                    <p className=' text-[15px] mr-2 text-[#1744A4] font-semibold'>More</p>
+                    <img src={arrow} className=' w-[14px] h-[12px]' alt="" />
+                </div>
+
+            </div>
+
 
                 {props.data && props.data.map(token => (<TopCoin token={token} textColor={props.textColor2} />))}
         </div>
@@ -103,6 +114,7 @@ const CryptoTop = () => {
                     />
                 </div>
             </div>
+            
 
         </div>
     </div>
