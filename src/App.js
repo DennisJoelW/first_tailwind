@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import CryptoToken from './components/CryptoToken';
 import Trade from './components/Trade';
+import CryptoTop from "./components/CryptoTop";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Hero />
         <CryptoToken />
         <Trade />
+        <CryptoTop />
     </div>
   );
 }

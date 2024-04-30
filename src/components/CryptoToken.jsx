@@ -18,8 +18,8 @@ const CryptoToken = () => {
   };
 
   return (
-    <div className=' w-full bg-[#191919] py-16 md:px-6 px-12 md:h-[95vh] h-fit'>
-      <h2 className='  text-center text-white font-bold font-poppins mb-10 mt-[-20px] text-4xl'>POPULAR TOKENS</h2>
+    <div className=' w-full bg-[#191919] py-16 md:px-6 px-12 md:h-[95vh] h-fit justify-center flex flex-col'>
+      <h2 className='  text-center text-white font-bold font-poppins mb-12 mt-[-20px] text-4xl'>POPULAR TOKENS</h2>
       <div className='max-w-[1080px] mx-auto flex md:flex-row flex-col gap-16'>
 
 

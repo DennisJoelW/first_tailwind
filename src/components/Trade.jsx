@@ -65,7 +65,7 @@ const Trade = () => {
         )
     }
 
-    function textBuySell() {
+    function TextBuySell() {
         return(
         <div className='flex flex-col py-8 w-full gap-3 mx-auto'>
             <h3 className=' lg:text-7xl md:text-5xl text-6xl font-semibold gradient-text'>Buy & Sell.</h3>
@@ -76,7 +76,7 @@ const Trade = () => {
     }
 
   return (
-    <div className=' w-full py-16 md:px-6 px-12 md:h-[90vh] h-[85vh] font-poppins mt-8 mb-8'>
+    <div className=' w-full py-16 md:px-6 px-12 md:h-[100vh] h-fit font-poppins mt-8 mb-8'>
         <div className=' max-w-[1080px] mx-auto flex md:flex-row flex-col text-white'>
             
         <div className=' md:w-1/2 w-full bg-[#191919] flex flex-col rounded-2xl md:px-16 md:py-8 py-4 px-12 lg:mr-8 md:mr-6 mb-16 h-full'>
@@ -103,11 +103,11 @@ const Trade = () => {
             </div>
         </div>
 
-        <div className=' md:w-1/2 w-full flex flex-col justify-center items-center rounded-2xl px-4 lg:ml-8 md:ml-6 md:mt-[-70px]'>
-
+            <div className=' md:w-1/2 w-full flex flex-col justify-center items-center rounded-2xl px-4 lg:ml-8 md:ml-6 md:mt-[-70px]'>
+                <TextBuySell />
             </div>
-                <textBuySell />
-            </div>
+            
+        </div>
     </div>
   )
 }
