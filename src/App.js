@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Wallet from './components/Wallet';
+import CryptoToken from './components/CryptoToken';
 import Trade from './components/Trade';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div>
         <Navbar/>
         <Hero />
-        <Wallet />
+        <CryptoToken />
         <Trade />
     </div>
   );

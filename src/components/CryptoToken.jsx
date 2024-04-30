@@ -3,7 +3,7 @@ import solana_icon from '../assets/solana.webp'
 import qnt_icon from '../assets/qnt.webp'
 import render from '../assets/render.webp'
 
-const Wallet = () => {
+const CryptoToken = () => {
 
   const CryptoCard = ({ bgGradient, image, title, description, imgSize, marginTop }) => {
     return (
@@ -18,7 +18,7 @@ const Wallet = () => {
   };
 
   return (
-    <div className=' w-full bg-[#191919] py-16 md:px-6 px-12 md:h-[100vh]'>
+    <div className=' w-full bg-[#191919] py-16 md:px-6 px-12 md:h-[95vh] h-fit'>
       <h2 className='  text-center text-white font-bold font-poppins mb-10 mt-[-20px] text-4xl'>POPULAR TOKENS</h2>
       <div className='max-w-[1080px] mx-auto flex md:flex-row flex-col gap-16'>
 
@@ -52,4 +52,4 @@ const Wallet = () => {
   )
 }
 
-export default Wallet
+export default CryptoToken
