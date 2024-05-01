@@ -62,6 +62,27 @@ const CryptoTop = () => {
         }
     ]
 
+    const coinVolumes = [
+        {
+            id: 1,
+            coinImage : btc_icon,
+            coinName : "Bitcoin",
+            coinPump : "15.5%"
+        },
+        {
+            id : 2,
+            coinImage : eth_icon,
+            coinName : "Ethereum",
+            coinPump : "9.4%"
+        },
+        {
+            id : 3,
+            coinImage : sol_icon,
+            coinName : "Solana",
+            coinPump : "6.6%"
+        }
+    ]
+
 
     function TopCategories(props){
         return(
@@ -110,7 +131,7 @@ const CryptoTop = () => {
                 <div className='  m-1 p-4 bg-[#000300] rounded-xl'>
                     <TopCategories 
                         categories = "Top Volumes"
-                        data = {coinGain}
+                        data = {coinVolumes}
                     />
                 </div>
             </div>
