@@ -1,5 +1,5 @@
-import React, {memo, useState} from 'react'
-import {HiOutlineMenuAlt3, HiOutlineMenu  } from 'react-icons/hi'
+import React, {useState} from 'react'
+import {HiOutlineMenu  } from 'react-icons/hi'
 import { IoMdClose } from "react-icons/io";
 
 const Navbar = () => {

@@ -76,34 +76,34 @@ const Trade = () => {
     }
 
   return (
-    <div className=' w-full py-16 md:px-6 px-12 md:h-[100vh] h-fit font-poppins mt-8 mb-8'>
-        <div className=' max-w-[1080px] mx-auto flex md:flex-row flex-col text-white'>
+    <div className=' w-full py-16 md:px-6 px-12 md:h-fit h-fit font-poppins mt-8 mb-8 items-center justify-center'>
+        <div className=' max-w-[1080px] mx-auto flex md:flex-row flex-col text-white items-center justify-center'>
             
-        <div className=' md:w-1/2 w-full bg-[#191919] flex flex-col rounded-2xl md:px-16 md:py-8 py-4 px-12 lg:mr-8 md:mr-6 mb-16 h-full'>
-            <div className='flex flex-col py-8 w-full mx-auto'>
+            <div className=' md:w-1/2 w-full bg-[#191919] flex flex-col rounded-2xl md:px-16 md:py-8 py-4 px-12 lg:mr-8 md:mr-6 mb-16 h-full'>
+                <div className='flex flex-col py-8 w-full mx-auto'>
 
-                <ThreeBtnOptions />
+                    <ThreeBtnOptions />
 
-                <p className=' ml-1 mt-6 mb-2'>Coin</p>
+                    <p className=' ml-1 mt-6 mb-2'>Coin</p>
 
-                <SelectCoin />
+                    <SelectCoin />
 
-                <p className=' ml-1 mt-6 mb-2'>Amount</p>
-                <Amount />
+                    <p className=' ml-1 mt-6 mb-2'>Amount</p>
+                    <Amount />
 
-                    <div className='flex justify-between mt-10 px-[3px]'>
-                        <h3>Total : </h3>
-                        <h3 className=' text-gray-400 font-poppins font-semibold'>$1,945.17</h3>
-                    </div>
+                        <div className='flex justify-between mt-10 px-[3px]'>
+                            <h3>Total : </h3>
+                            <h3 className=' text-gray-400 font-poppins font-semibold'>$1,945.17</h3>
+                        </div>
 
-                    <button className=' mt-10 bg-[#03C988] hover:bg-[hsl(160,97%,46%)] text-black active:bg-[hsl(160,97%,50%)] py-4 rounded-lg text-[18px] font-semibold font-poppins'>
-                        {buttonOptions}
-                    </button>
+                        <button className=' mt-10 bg-[#03C988] hover:bg-[hsl(160,97%,46%)] text-black active:bg-[hsl(160,97%,50%)] py-4 rounded-lg text-[18px] font-semibold font-poppins'>
+                            {buttonOptions}
+                        </button>
 
+                </div>
             </div>
-        </div>
 
-            <div className=' md:w-1/2 w-full flex flex-col justify-center items-center rounded-2xl px-4 lg:ml-8 md:ml-6 md:mt-[-70px]'>
+            <div className=' md:w-1/2 w-full flex flex-col justify-center items-center h-fit rounded-2xl px-4 lg:ml-8 md:ml-6 md:mt-[-70px]'>
                 <TextBuySell />
             </div>
             
