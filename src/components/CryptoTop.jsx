@@ -105,7 +105,12 @@ const CryptoTop = () => {
     }
 
   return (
-    <div className='w-full md:h-[60vh] bg-[#191919] py-12'>
+    <div className='w-full md:h-fit bg-[#191919] py-12'>
+
+        <div className=' max-w-[1380px] h-fit mx-auto text-white justify-center items-center' >
+            <h2 className=' font-poppins text-2xl ml-2'>Top Performing Cryptos</h2>
+        </div>
+
         <div className=' max-w-[1380px] h-full mx-auto flex text-white font-poppins md:flex-row flex-col'>
 
             <div className=' md:w-1/3 md:m-2 m-6'>
