@@ -79,7 +79,7 @@ const Trade = () => {
     <div className=' w-full py-16 md:px-6 px-12 md:h-fit h-fit font-poppins mt-8 mb-8 items-center justify-center'>
         <div className=' max-w-[1080px] mx-auto flex md:flex-row flex-col text-white items-center justify-center'>
             
-            <div className=' md:w-1/2 w-full bg-[#191919] flex flex-col rounded-2xl md:px-16 md:py-8 py-4 px-12 lg:mr-8 md:mr-6 mb-16 h-full'>
+            <div className=' md:w-1/2 w-full bg-[#191919] flex flex-col rounded-2xl md:px-16 md:py-8 py-4 px-4 lg:mr-8 md:mr-6 mb-16 h-full'>
                 <div className='flex flex-col py-8 w-full mx-auto'>
 
                     <ThreeBtnOptions />
