@@ -2,8 +2,8 @@ import React from 'react'
 
 const Newsletter = () => {
   return (
-    <div className=' w-full bg-[#000300] py-16 md:px-12 px-12 md:h-[80vh] h-fit flex flex-col items-center'>
-        <div className=' max-w-[1080px] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-full flex flex-col items-center font-poppins text-black py-16 px-10 rounded-2xl'>
+    <div className=' w-full bg-[#000300] py-16 md:px-12 px-12 md:h-[80vh] h-fit flex flex-col items-center justify-center'>
+        <div className=' max-w-[1080px] mx-auto bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-full flex flex-col items-center font-poppins text-black py-16 px-10 rounded-2xl'>
             <h2 className=' text-xl uppercase'>Subscribe</h2>
             <h2 className=' md:text-7xl text-5xl my-6 font-bold'>Newsletter</h2>
         
