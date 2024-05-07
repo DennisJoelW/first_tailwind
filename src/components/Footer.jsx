@@ -17,7 +17,7 @@ const Footer = () => {
             <div className=' flex flex-row gap-6 items-center justify-center'>
               <a href="mailto:dennisjoelw@gmail.com"> <MdOutlineEmail size={34} className=' cursor-pointer'/> </a>
               <a href="https://github.com/dennisjoelw"><FiGithub size={30} className=' cursor-pointer' /></a>
-              <a href="#"><CiLinkedin size={34} className=' cursor-pointer' /></a>
+              <a href="https://linkedin.com/in/dennis-joel"><CiLinkedin size={34} className=' cursor-pointer' /></a>
               <SlSocialInstagram size={30} className=' cursor-pointer' />
               <SlSocialTwitter size={30} className=' cursor-pointer'/>
             </div>
