@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/nova-exchange/static/css/main.fd4b8ca4.css",
+    "main.js": "/nova-exchange/static/js/main.5413674a.js",
+    "static/media/render.webp": "/nova-exchange/static/media/render.51da68136cc2844bb6b1.webp",
+    "static/media/btc-logo.png": "/nova-exchange/static/media/btc-logo.82491fef997ab841639c.png",
+    "static/media/solana.webp": "/nova-exchange/static/media/solana.da4a8baa1901f2e8847b.webp",
+    "static/media/qnt.webp": "/nova-exchange/static/media/qnt.7c4e552d970a362000f5.webp",
+    "index.html": "/nova-exchange/index.html",
+    "main.fd4b8ca4.css.map": "/nova-exchange/static/css/main.fd4b8ca4.css.map",
+    "main.5413674a.js.map": "/nova-exchange/static/js/main.5413674a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd4b8ca4.css",
+    "static/js/main.5413674a.js"
+  ]
+}
